@@ -12,22 +12,5 @@
       "memory": 128,
       "maxDuration": 15
     }
-  },
-  "routes": [
-    {
-      "src": "/api/webhook",
-      "dest": "/api/webhook.js",
-      "headers": {
-        "x-vercel-raw-body": "true"
-      }
-    },
-    {
-      "src": "/api/create-payment",
-      "dest": "/api/create-payment.js"
-    },
-    {
-      "src": "/api/check-tracking",
-      "dest": "/api/check-tracking.js"
-    }
-  ]
+  }
 }
